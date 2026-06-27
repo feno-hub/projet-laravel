@@ -8,6 +8,10 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="auth">
+        {{ $slot }}
+    </div>
     
 </body>
 </html>
