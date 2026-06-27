@@ -2,5 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: red;
+  min-height: 100vh;
+}
+.auth-login {
+  background: black;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

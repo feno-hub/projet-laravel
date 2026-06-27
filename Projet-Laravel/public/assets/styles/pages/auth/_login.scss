@@ -2,5 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: red;
+    min-height: 100vh;
+
+    &-login {
+        background: black;
+        padding: 2rem;
+        border-radius: 10px;
+        text-align: center;
+    }
+
 }
+
