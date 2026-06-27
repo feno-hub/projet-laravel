@@ -24,8 +24,9 @@ li {
 }
 .auth-login {
   display: flex;
-  gap: 1rem;
   flex-wrap: wrap;
+  gap: 1rem;
+  background: turquoise;
 }
 .auth-login-lien {
   width: 50%;
@@ -33,6 +34,7 @@ li {
   background: blue;
   border-radius: 20px;
   position: relative;
+  border: solid 2px blue;
 }
 .auth-login-lien-title1 {
   background: black;

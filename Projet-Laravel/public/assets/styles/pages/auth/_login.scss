@@ -11,8 +11,9 @@
 
     &-login {
         display: flex;
-        gap: 1rem;
         flex-wrap: wrap;
+        gap: 1rem;
+        background: turquoise;
 
         &-lien {
             width: 50%;
@@ -20,6 +21,7 @@
             background: blue;
             border-radius: 20px;
             position: relative;
+            border: solid 2px blue;
 
             &-title1 {
                 background: black;
