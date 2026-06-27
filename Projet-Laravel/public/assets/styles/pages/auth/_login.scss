@@ -3,20 +3,30 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: black;
 
-    &-title {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
+    
     &-login {
-        display: flex;
-        gap: 1rem;
         background: turquoise;
+        padding: 2rem;
+        border-radius: 10px;
+        line-height: 2rem;
+        width: 30%;
+        min-height: 90vh;
+
+        &-title {
+            text-align: center;
+            color: rgb(9, 9, 9);
+            font-family: Arial, Helvetica, sans-serif;
+            display: block;
+            text-transform: capitalize;
+        }
 
         &-lien {
+            margin: 1rem auto;
             width: 50%;
             display: flex;
+            justify-content: space-around;
             background: blue;
             border-radius: 20px;
             position: relative;
@@ -26,11 +36,35 @@
                 background: black;
                 outline: none;
                 border-radius: 20px;
-                position: absolute;
                 text-align: center;
                 color: white;
+                padding: .2rem;
+                flex: 1;
             }
 
+            &-title2 {
+                text-align: center;
+                color: white;
+                padding: .2rem;
+                flex: 1;
+            }
+
+        }
+
+        &-parent {
+            display: flex;
+            flex-direction: column;
+
+            &-label {
+                margin-left: .5rem;
+                text-transform: capitalize;
+                font-weight: 800;
+            }
+
+            &-input {
+                padding: .5rem;
+                font-weight: bold;
+            }
         }
 
     }

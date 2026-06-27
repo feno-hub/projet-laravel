@@ -17,19 +17,28 @@ li {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
-.auth-title {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  background: black;
 }
 .auth-login {
-  display: flex;
-  gap: 1rem;
   background: turquoise;
+  padding: 2rem;
+  border-radius: 10px;
+  line-height: 2rem;
+  width: 30%;
+  min-height: 90vh;
+}
+.auth-login-title {
+  text-align: center;
+  color: rgb(9, 9, 9);
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  text-transform: capitalize;
 }
 .auth-login-lien {
+  margin: 1rem auto;
   width: 50%;
   display: flex;
+  justify-content: space-around;
   background: blue;
   border-radius: 20px;
   position: relative;
@@ -39,7 +48,27 @@ li {
   background: black;
   outline: none;
   border-radius: 20px;
-  position: absolute;
   text-align: center;
   color: white;
+  padding: 0.2rem;
+  flex: 1;
+}
+.auth-login-lien-title2 {
+  text-align: center;
+  color: white;
+  padding: 0.2rem;
+  flex: 1;
+}
+.auth-login-parent {
+  display: flex;
+  flex-direction: column;
+}
+.auth-login-parent-label {
+  margin-left: 0.5rem;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+.auth-login-parent-input {
+  padding: 0.5rem;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
