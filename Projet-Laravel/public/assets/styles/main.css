@@ -24,7 +24,6 @@ li {
 }
 .auth-login {
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
   background: turquoise;
 }
