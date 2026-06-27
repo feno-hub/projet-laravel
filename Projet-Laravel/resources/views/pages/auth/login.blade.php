@@ -5,8 +5,8 @@
     <form action="" method="post" class="auth-login">
 
         <div class="auth-login-lien">
-            <h2 class="auth-login-lien-title1">connexion</h2>
-            <h2 class="auth-login-lien-title2">inscription</h2>
+            <a href="" class="auth-login-lien-title1">connexion</a>
+            <a href="" class="auth-login-lien-title2">inscription</a>
         </div>
 
         <div class="auth-login-parent">
