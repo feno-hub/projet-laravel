@@ -1,12 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 .auth {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
+.auth-title {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .auth-login {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.auth-login-lien {
+  width: 50%;
+  display: flex;
+  background: blue;
+  border-radius: 20px;
+  position: relative;
+}
+.auth-login-lien-title1 {
   background: black;
-  padding: 2rem;
-  border-radius: 10px;
+  outline: none;
+  border-radius: 20px;
+  position: absolute;
   text-align: center;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

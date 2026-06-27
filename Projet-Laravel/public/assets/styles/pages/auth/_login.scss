@@ -4,11 +4,34 @@
     align-items: center;
     min-height: 100vh;
 
+    &-title {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     &-login {
-        background: black;
-        padding: 2rem;
-        border-radius: 10px;
-        text-align: center;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+        &-lien {
+            width: 50%;
+            display: flex;
+            background: blue;
+            border-radius: 20px;
+            position: relative;
+
+            &-title1 {
+                background: black;
+                outline: none;
+                border-radius: 20px;
+                position: absolute;
+                text-align: center;
+                color: white;
+            }
+
+        }
+
     }
 
 }
