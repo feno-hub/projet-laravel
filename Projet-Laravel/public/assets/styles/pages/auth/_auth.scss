@@ -7,12 +7,12 @@
 
     
     &-login {
-        background: turquoise;
+        background: rgb(12, 12, 12);
         padding: 2rem;
         border-radius: 10px;
         line-height: 2rem;
         width: 30%;
-        min-height: 90vh;
+        min-height: 80vh;
 
         &-title {
             text-align: center;
@@ -20,6 +20,7 @@
             font-family: Arial, Helvetica, sans-serif;
             display: block;
             text-transform: capitalize;
+            color: white
         }
 
         &-lien {
@@ -27,10 +28,10 @@
             width: 50%;
             display: flex;
             justify-content: space-around;
-            background: blue;
             border-radius: 20px;
             position: relative;
             border: solid 2px blue;
+            box-shadow: 0px 0px 10px blue;
 
             &-title1 {
                 background: black;
@@ -62,9 +63,27 @@
             }
 
             &-input {
-                padding: .5rem;
+                padding: 1rem;
                 font-weight: bold;
+                outline: none;
+                margin-top: 1rem;
+                background: none;
+                border-bottom: solid 3px blue;
+                border-left: solid 3px blue;
+                color: white;
             }
+        }
+
+        &-btn {
+            width: 80%;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            background: blue;
+            margin: 2rem auto;
+            border: none;
+            color: white;
+            font-weight: bolder;
+            cursor: pointer;
         }
 
     }
