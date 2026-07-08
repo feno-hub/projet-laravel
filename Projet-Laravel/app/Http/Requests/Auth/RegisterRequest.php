@@ -28,7 +28,7 @@ class RegisterRequest extends FormRequest
             "email" => "required|email|unique:users,email",
             "role" => "required",
             "image" => "required|mimes:jpg,jpeg,png,webp,gif,svg|max:1024",
-            "password" => "required|min:6|max:8|string"
+            "password" => "required|min:6|max:8|confirmed"
         ];
 
     }
@@ -50,6 +50,7 @@ class RegisterRequest extends FormRequest
             'password.required' => "veuiller remplir ce champs",
             'password.max' => "le nombre de mot de passe doit inferieur de 8",
             'password.min' => "le nombre de mot de passe doit superieur de 6",
+            'password.confirmed' => "le mot de passe ne correspond pas"
         ];
     }
 }

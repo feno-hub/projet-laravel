@@ -20,8 +20,7 @@ class LoginController extends Controller
         if (Auth::attempt($crendentials)) {
             $request->session()->regenerate();
 
-            return redirect()->back();
-            // return redirect()->intended('inscription');
+            return redirect()->intended('acceuil');
         }
 
         return back()->withErrors([

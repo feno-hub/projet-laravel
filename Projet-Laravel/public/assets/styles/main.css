@@ -30,84 +30,86 @@ li {
 
 .auth {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  background: #1E293B;
   min-height: 100vh;
-  background: black;
+  padding: 2rem 4rem;
+  gap: 4rem;
+}
+.auth-desc {
+  flex: 1;
+}
+.auth-desc-title {
+  color: #DBEAFE;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+}
+.auth-desc-content {
+  margin-top: 2rem;
+}
+.auth-desc-content-para {
+  color: white;
+  text-align: justify;
+}
+.auth-desc-content-lien {
+  display: block;
+  color: #DBEAFE;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
 }
 .auth-login {
-  background: rgb(12, 12, 12);
-  padding: 2rem;
-  border-radius: 10px;
-  line-height: 2rem;
+  background: #DBEAFE;
+  text-align: center;
+  padding: 2rem 1rem;
   width: 30%;
-  min-height: 80vh;
+  border-radius: 10px;
+  box-shadow: black 0px 4px 20px 0px;
 }
 .auth-login-title {
-  text-align: center;
-  color: rgb(9, 9, 9);
-  font-family: Arial, Helvetica, sans-serif;
-  display: block;
+  color: #0284C7;
   text-transform: capitalize;
-  color: white;
-}
-.auth-login-lien {
-  margin: 1rem auto;
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  border-radius: 20px;
-  position: relative;
-  border: solid 2px blue;
-  box-shadow: 0px 0px 10px blue;
-}
-.auth-login-lien-title1 {
-  background: black;
-  outline: none;
-  border-radius: 20px;
-  text-align: center;
-  color: white;
-  padding: 0.2rem;
-  flex: 1;
-}
-.auth-login-lien-title2 {
-  text-align: center;
-  color: white;
-  padding: 0.2rem;
-  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .auth-login-parent {
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 .auth-login-parent-label {
+  margin-top: 1.5rem;
   margin-left: 0.5rem;
-  text-transform: capitalize;
-  font-weight: 800;
+  color: #1E3A8A;
+  font-weight: bolder;
 }
 .auth-login-parent-input {
-  padding: 1rem;
-  font-weight: bold;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
   outline: none;
-  margin-top: 1rem;
-  background: none;
-  border-bottom: solid 3px blue;
-  border-left: solid 3px blue;
-  color: white;
-}
-.auth-login-parent-input-option {
-  color: black;
-  font-weight: bolder;
-  text-transform: capitalize;
+  border-radius: 2px;
+  border: none;
 }
 .auth-login-btn {
-  width: 100%;
+  background: #0284C7;
   padding: 0.5rem;
-  border-radius: 1rem;
-  background: blue;
-  margin: 2rem auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  margin-top: 2rem;
   border: none;
-  color: white;
-  font-weight: bolder;
+  font-size: 1rem;
+  box-shadow: 0 0 4px black;
+  color: #DBEAFE;
   cursor: pointer;
+  transition: 0.3s;
+}
+.auth-login-btn:hover {
+  scale: 1.05;
 }/*# sourceMappingURL=main.css.map */
