@@ -1,15 +1,30 @@
 <x-auth-layout>
 
     <div class="auth-desc">
-        <h1 class="auth-desc-title">inscription multi-vendeur</h1>
+        <h1 class="auth-desc-title1">Créez votre compte gratuitement</h1>
+
+        <div class="auth-desc-content">
+            <h3 class="auth-desc-title2">Vous êtes un acheteur ?</h3>
+            <p class="auth-desc-content-para">Découvrez une large sélection de produits proposés par des vendeurs
+                vérifiés, comparez les offres, effectuez vos achats en toute confiance et bénéficiez d'un suivi complet
+                de vos commandes.
+            </p>
+        </div>
 
         <div class="auth-desc-content">
 
-            <p class="auth-desc-content-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis explicabo
-                perspiciatis, consequuntur nulla illo corporis soluta, quas voluptatum atque labore ut, repellat esse
-                sapiente recusandae neque mollitia. Repudiandae, accusamus eius? Alias eveniet debitis consequatur sunt
-                optio animi qui, quaerat inventore.
+            <h3 class="auth-desc-title2">Vous êtes un vendeur ?</h3>
+            <p class="auth-desc-content-para">Rejoignez dès aujourd'hui notre communauté et participez à une nouvelle
+                expérience du commerce en ligne. Ensemble, faisons grandir votre réussite.
             </p>
+            <h6 class="auth-desc-title3">Notre plateforme vous permet de :</h6>
+            <ol class="auth-desc-content-liste">
+                <li>Créer votre boutique en quelques clics.</li>
+                <li>Publier et gérer vos produits facilement.</li>
+                <li>Recevoir et traiter vos commandes.</li>
+                <li>Suivre vos ventes grâce à un tableau de bord intuitif.</li>
+                <li>Développer votre visibilité auprès d'une large communauté de clients.</li>
+            </ol>
 
             {{-- <img src="{{ asset('storage/image/user-2.jpg') }}" class="auth-desc-content-img"> --}}
 

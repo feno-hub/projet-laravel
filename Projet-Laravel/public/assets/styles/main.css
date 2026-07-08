@@ -40,19 +40,34 @@ li {
 .auth-desc {
   flex: 1;
 }
-.auth-desc-title {
+.auth-desc-title1 {
   color: #DBEAFE;
   text-align: center;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
+}
+.auth-desc-title2 {
+  text-align: center;
+  margin-top: 1rem;
+  color: #0284C7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+.auth-desc-title3 {
+  color: #DBEAFE;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+}
+.auth-desc-liste {
+  margin-left: 1rem;
 }
 .auth-desc-content {
   margin-top: 2rem;
 }
 .auth-desc-content-para {
   color: white;
-  text-align: justify;
+  text-align: center;
 }
 .auth-desc-content-lien {
   display: block;

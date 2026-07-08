@@ -28,12 +28,30 @@
     &-desc {
         flex: 1;
 
-        &-title  {
+        &-title1  {
             color: $color-secondary;
             text-align: center;
             text-transform: uppercase;
             font-family: $font-family;
-            font-size: 3rem;
+        }
+
+        &-title2 {
+            text-align: center;
+            margin-top: 1rem;
+            color: $color-quatre;
+            font-family: $font-family;
+            font-size: 1.5rem;
+        }
+
+        &-title3 {
+            color: $color-secondary;
+            font-size: 1rem;
+            font-family: $font-family;
+            margin-top: 1rem;
+        }
+
+        &-liste {
+            margin-left: 1rem;
         }
 
         &-content {
@@ -41,7 +59,7 @@
 
             &-para {
                 color: white;
-                text-align: justify;
+                text-align: center;
             }
 
             &-lien {
