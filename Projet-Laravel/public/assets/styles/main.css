@@ -38,7 +38,7 @@ li {
   gap: 4rem;
 }
 .auth-desc {
-  flex: 1;
+  width: 50%;
 }
 .auth-desc-title1 {
   color: #DBEAFE;
@@ -83,7 +83,7 @@ li {
   background: #DBEAFE;
   text-align: center;
   padding: 2rem 1rem;
-  width: 30%;
+  width: 50%;
   border-radius: 10px;
   box-shadow: black 0px 4px 20px 0px;
 }

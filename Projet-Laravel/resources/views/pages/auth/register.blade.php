@@ -17,16 +17,6 @@
             <p class="auth-desc-content-para">Rejoignez dès aujourd'hui notre communauté et participez à une nouvelle
                 expérience du commerce en ligne. Ensemble, faisons grandir votre réussite.
             </p>
-            <h6 class="auth-desc-title3">Notre plateforme vous permet de :</h6>
-            <ol class="auth-desc-content-liste">
-                <li>Créer votre boutique en quelques clics.</li>
-                <li>Publier et gérer vos produits facilement.</li>
-                <li>Recevoir et traiter vos commandes.</li>
-                <li>Suivre vos ventes grâce à un tableau de bord intuitif.</li>
-                <li>Développer votre visibilité auprès d'une large communauté de clients.</li>
-            </ol>
-
-            {{-- <img src="{{ asset('storage/image/user-2.jpg') }}" class="auth-desc-content-img"> --}}
 
             <a href="{{ route('loginForm') }}" class="auth-desc-content-lien">Se connecter</a>
 

@@ -6,12 +6,15 @@
         <h3 class="auth-desc-title2">Connectez-vous à votre espace</h3>
 
         <div class="auth-desc-content">
-            <p class="auth-desc-content-para">Accédez à une plateforme conçue pour simplifier vos achats et développer votre activité commerciale.</p>
+            <p class="auth-desc-content-para">Accédez à une plateforme conçue pour simplifier vos achats et développer
+                votre activité commerciale.</p>
         </div>
 
         <div class="auth-desc-content">
 
-            <p class="auth-desc-content-para">Que vous soyez acheteur ou vendeur, retrouvez un espace sécurisé vous permettant de gérer votre compte, suivre vos commandes, communiquer avec les vendeurs et profiter d'une expérience fluide et performante.
+            <p class="auth-desc-content-para">Que vous soyez acheteur ou vendeur, retrouvez un espace sécurisé vous
+                permettant de gérer votre compte, suivre vos commandes, communiquer avec les vendeurs et profiter d'une
+                expérience fluide et performante.
             </p>
 
             <img src="" class="auth-desc-content-img">
