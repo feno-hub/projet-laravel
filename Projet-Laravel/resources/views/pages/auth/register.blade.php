@@ -58,12 +58,6 @@
         </div>
 
         <div class="auth-login-parent">
-            <label for="image" class="auth-login-parent-label">Séléctionner votre image</label>
-            <input type="file" name="image" id="" class="auth-login-parent-input">
-            <x-error-input name='image'></x-error-input>
-        </div>
-
-        <div class="auth-login-parent">
             <label for="password" class="auth-login-parent-label">Entrer votre code</label>
             <input type="password" name="password" id="" placeholder="Mot de passe ..."
                 class="auth-login-parent-input">

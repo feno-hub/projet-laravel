@@ -18,15 +18,10 @@ class RegisterController extends Controller
 
         $request->validated();
 
-        $file = $request->file('image');
-        $path = $file->store('users', 'public');
-        $finalpath = 'storage' . $path;
-
         User::create([
             "name" => $request->name,
             "email" => $request->email,
             "role" => $request->role,
-            "image" => $finalpath,
             "password" => Hash::make($request->password)
         ]);
 

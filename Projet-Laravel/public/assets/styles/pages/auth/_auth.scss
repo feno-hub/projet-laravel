@@ -75,6 +75,7 @@
                 font-size: 1.2rem;
                 font-family: $font-family;
                 text-align: left;
+                width: min-content;
             }
         }
 
@@ -114,6 +115,7 @@
                 outline: none;
                 border-radius: 2px;
                 border: none;
+                // background: $color-secondary;
             }
 
         }
