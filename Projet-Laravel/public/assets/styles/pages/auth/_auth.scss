@@ -75,7 +75,6 @@
                 font-size: 1.2rem;
                 font-family: $font-family;
                 text-align: left;
-                width: min-content;
             }
         }
 
@@ -143,3 +142,48 @@
 
 }
 
+@media (max-width: 992px) {
+    .auth {
+        flex-direction: column;
+
+        &-desc {
+            width: 100%;
+        }
+
+        &-login {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .auth {
+        padding: 1rem;
+    }
+}
+@media (max-width: 2400px) {
+    .auth {
+        &-desc {
+            &-title1 {
+                font-size: 3rem;
+            }
+            &-title2 {
+                font-size: 2rem;
+            }
+            &-content {
+                &-para {
+                    font-size: 1.5rem;
+                }
+                &-lien {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        &-login {
+            padding: 4rem;
+
+            &-title {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}

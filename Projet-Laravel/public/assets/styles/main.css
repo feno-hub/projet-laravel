@@ -127,4 +127,143 @@ li {
 }
 .auth-login-btn:hover {
   scale: 1.05;
+}
+
+@media (max-width: 992px) {
+  .auth {
+    flex-direction: column;
+  }
+  .auth-desc {
+    width: 100%;
+  }
+  .auth-login {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .auth {
+    padding: 1rem;
+  }
+}
+@media (max-width: 2400px) {
+  .auth-desc-title1 {
+    font-size: 3rem;
+  }
+  .auth-desc-title2 {
+    font-size: 2rem;
+  }
+  .auth-desc-content-para {
+    font-size: 1.5rem;
+  }
+  .auth-desc-content-lien {
+    font-size: 1.5rem;
+  }
+  .auth-login {
+    padding: 4rem;
+  }
+  .auth-login-title {
+    font-size: 2.5rem;
+  }
+}
+.client-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: #DBEAFE;
+}
+.client-container-asideone {
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px black;
+}
+.client-container-asideone-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1E3A8A;
+}
+.client-container-asideone-image-img {
+  text-transform: uppercase;
+  color: #DBEAFE;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.client-container-asideone-name {
+  margin-top: 0.5rem;
+  color: #1E293B;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.client-container-main {
+  height: 100%;
+  flex: 1;
+  border-radius: 2px;
+}
+.client-container-main-title {
+  text-align: center;
+  padding: 1rem;
+  color: #0284C7;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+.client-container-asideto {
+  height: 100%;
+  width: 20%;
+  border-radius: 2px;
+  padding: 1rem;
+  position: relative;
+  box-shadow: 0 2px 10px black;
+}
+.client-container-asideto-title {
+  color: #0284C7;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.client-container-asideto-notif {
+  background: #DBEAFE;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-top: 1.5rem;
+  position: relative;
+  box-shadow: 0px 4px 10px black;
+}
+.client-container-asideto-notif-icon {
+  position: absolute;
+  top: 0.2;
+  right: 0;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+.client-container-asideto-notif-card {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.client-container-asideto-notif-card-profile {
+  background: #1E3A8A;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: #DBEAFE;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.client-container-asideto-notif-card-name {
+  text-transform: capitalize;
+}
+.client-container-asideto-notif-para {
+  margin-top: 0.5rem;
+  color: black;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=main.css.map */
